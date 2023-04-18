@@ -3,6 +3,7 @@ import { Alert } from 'react-native';
 
 import { StyleSheet, View, Text, Button } from 'react-native';
 import ZegoUIKitPrebuiltVideoConference from '@zegocloud/zego-uikit-prebuilt-video-conference-rn'
+import KeyCenter from "../KeyCenter";
 
 export default function VideoConferencePage(props) {
     const { route } = props;
@@ -12,8 +13,8 @@ export default function VideoConferencePage(props) {
     return (
         <View style={styles.container}>
             <ZegoUIKitPrebuiltVideoConference
-                appID={yourAppID}
-                appSign="yourAppSign"
+                appID={KeyCenter.appID}
+                appSign={KeyCenter.appSign}
                 userID={userID}
                 userName={userName}
                 conferenceID={conferenceID}
