@@ -13,7 +13,7 @@
     "@react-navigation/native": "^6.0.11",
     "@react-navigation/native-stack": "^6.7.0",
     "@zegocloud/zego-uikit-prebuilt-video-conference-rn": "^1.1.0",
-    "@zegocloud/zego-uikit-rn": "^1.12.6",
+    "@zegocloud/zego-uikit-rn": "^2.0.0",
     "react": "18.0.0",
     "react-delegate-component": "^1.0.0",
     "react-native": "0.69.7",
