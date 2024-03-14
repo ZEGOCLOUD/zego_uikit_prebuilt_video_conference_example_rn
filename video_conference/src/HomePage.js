@@ -27,7 +27,6 @@ export default function HomePage(props) {
                 placeholder="Enter the Conference ID. e.g. 6666"
                 style={[styles.input]}
                 onChangeText={text => setConferenceID(text.replace(/[^0-9A-Za-z_]/g, ''))}
-                maxLength={4}
                 value={conferenceID}
             >
             </TextInput>
